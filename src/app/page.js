@@ -16,7 +16,7 @@ import {
 import { Label } from "@/components/ui/label";
 import { submitFeedbackAction } from "@/actions/submitFeedbackAction";
 
-export default function FeedbackForm() {
+export default function Home() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [feedback, setFeedback] = useState("");
